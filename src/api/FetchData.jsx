@@ -1,7 +1,7 @@
 import plant1 from '../assets/plant.png'
 import plant2 from '../assets/plant.png'
 import plant3 from '../assets/plant.png'
-const api = "https://6a4b41e2f5eab0bb6b6275e5.mockapi.io/info";
+const api = "https://6a4b41e2f5eab0bb6b6275e5.mockapi.io/info"
 
 export async function FetchData(){
     const response = await fetch(api);
