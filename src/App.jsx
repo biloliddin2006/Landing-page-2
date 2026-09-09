@@ -4,7 +4,6 @@ import { Home } from "./pages/home"
 import { ProductPage } from "./pages/ProductPage"
 import { Checkout } from "./pages/CheckoutPage"
 
-
 export const router = createBrowserRouter([
     {
       path: '/',
